@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+@mixin comentario-custom($name,$color,$estilo,$tamanho){
+	& .comentario-#{$name}{
+		
+			background: $color;
+			font-style: $estilo;
+			font-size: $tamanho;
+		
+	}
+}
