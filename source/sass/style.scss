@@ -5,13 +5,11 @@
 }
 
 body{
-	padding: 10px;
+	padding: 5px;
 	background: #2c3e50;
 	@media(orientation:landscape){
-		background: red;
+		
 	}
 }
 /* Component card */
 @import "card/card.scss";
-/* Component comentario */
-@import "comentario/comentario.scss"
