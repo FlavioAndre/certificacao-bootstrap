@@ -40,3 +40,28 @@ body{
 .open .offcanvas{
 	left: 0;
 }
+
+.nav {
+
+	background-color: #27ae60;
+	font-size: 1.5rem;
+	@extend .col-lg-2;
+	@extend .col-md-2;
+	color: #ecf0f1;
+	padding-right: 0;
+	padding-top: .5rem;
+	p{
+		@extend .text-xs-center;
+		@extend .text-md-center;
+	}
+		
+}
+
+.nav-item{
+	border-top: 1px solid #2b6b2c;
+	font-size: 1rem;
+	padding-left: .5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	
+}
