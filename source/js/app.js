@@ -12,7 +12,7 @@ $('.open-off').on('click',function(){
 
 
 $('html,body').on('swiperight',function(){
-	showOffCanvas($(this));
+	showOffCanvas($('html'));
 });
 
 $('html,body').on('swipeleft',function(){
